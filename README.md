@@ -1,1 +1,1 @@
-# rsschool-cv
+https://quadrotez.github.io/rsschool-cv/
