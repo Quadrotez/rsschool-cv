@@ -2,12 +2,12 @@
 
 ## My name is **Gregory**, my contacts:
 |[Telegram](https://t.me/tetraciline)|[Discord](https://discordapp.com/users/622442422957244447)|[Kwork](https://kwork.ru/user/tetracicline)|
--|-|-
+|--|--|--|
 
 ## About me:
 ### Attrubutes:
 |Positive attributes|Negative attributes|
-|-|-|
+|--|--|
 |Purposeful|
 |Careful|
 |Well-communicating|
