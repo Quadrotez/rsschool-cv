@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gregory`s resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Headland+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-color:#474642;">
+    <div style="text-align: center;">
+        <img alt="My photo" src="https://i.ibb.co/TWzbkkk/7f922dcf-946c-4385-8e04-1b5a0c2789c4.jpg" width="200" height="200">
+    </div>
 
-<h1>x</h1>
-<p>x</p>
+    <h1 class="main_header">Gregory's resume</h1>
+    <hr>
+    
+    <h2 class="sub_header">My contacts</h2>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+        <div id="myGitHub">
+            <a target="_blank" href="https://github.com/Quadrotez" style="text-align: center;">
+                <img alt="GitHub" src="https://www.svgrepo.com/show/512317/github-142.svg" width="100" height="100">
+                <pre>My GitHub</pre>
+            </a>
+        </div>
+        <div id="myKwork">
+            <a target="_blank" href="https://kwork.ru/user/tetracicline" style="text-align: center;">
+                <img alt="Kwork" src="https://eto-razvod.ru/wp-content/uploads/2022/10/Снимок-экрана-2022-10-09-в-14.13.08.png" width="100" height="100">
+                <pre>My kwork</pre>
+            </a>
+        </div>
+        <div id="myTelegram">
+            <a target="_blank" href="https://t.me/tetraciline" style="text-align: center;">
+                <img alt="Telegram" src="https://www.svgrepo.com/show/452115/telegram.svg" width="100" height="100">
+                <pre>My Telegram</pre>
+            </a>
+        </div>
+        <div id="myDiscord">
+            <a target="_blank" href="https://discordapp.com/users/622442422957244447" style="text-align: center;">
+                <img alt="Discord" src="https://www.svgrepo.com/show/343548/discord-communication-interaction-message-network.svg" width="100" height="100">
+                <pre>My Discord</pre>
+            </a>
+        </div>
+        <div id="myEmail">
+            <a target="_blank" href="mailto:quadrotez@proton.me" style="text-align: center;">
+                <img alt="Email" src="https://www.svgrepo.com/show/533193/mail.svg" width="100" height="100">
+                <pre>My E-Mail</pre>
+            </a>
+        </div>
+    </div>
+    
+    <hr>
 
+    <h2 class="sub_header">About me</h2>
+
+    <p class="main_paragraph">Hello, my name is <strong>Gregory Bychkov</strong>. I am <span style="color: yellow;">Junior</span> frontend and backend developer</p>
+    <p class="main_paragraph">I`m based in Moscow, Russia.</p>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </body>
 </html>
