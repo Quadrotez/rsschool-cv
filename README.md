@@ -1,1 +1,1 @@
-https://quadrotez.github.io/rsschool-cv/
+https://app.netlify.com/sites/rsschool-cv-quadrotez/overview
