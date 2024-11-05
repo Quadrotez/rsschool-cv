@@ -1,1 +1,1 @@
-# rsschool-cv
+https://rsschool-cv-quadrotez.netlify.app/

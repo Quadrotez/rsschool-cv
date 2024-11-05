@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Headland+One&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:#474642;">
+    <div style="text-align: center;">
+        <img alt="My photo" src="https://i.ibb.co/TWzbkkk/7f922dcf-946c-4385-8e04-1b5a0c2789c4.jpg" width="200" height="200">
+    </div>
+
+    <h1 class="main_header">Gregory's resume</h1>
+    <hr>
+    
+    <h2 class="sub_header">My contacts</h2>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+        <div id="myGitHub">
+            <a target="_blank" href="https://github.com/Quadrotez" style="text-align: center;">
+                <img alt="GitHub" src="https://www.svgrepo.com/show/512317/github-142.svg" width="100" height="100">
+                <pre>My GitHub</pre>
+            </a>
+        </div>
+        <div id="myKwork">
+            <a target="_blank" href="https://kwork.ru/user/tetracicline" style="text-align: center;">
+                <img alt="Kwork" src="https://eto-razvod.ru/wp-content/uploads/2022/10/Снимок-экрана-2022-10-09-в-14.13.08.png" width="100" height="100">
+                <pre>My kwork</pre>
+            </a>
+        </div>
+        <div id="myTelegram">
+            <a target="_blank" href="https://t.me/tetraciline" style="text-align: center;">
+                <img alt="Telegram" src="https://www.svgrepo.com/show/452115/telegram.svg" width="100" height="100">
+                <pre>My Telegram</pre>
+            </a>
+        </div>
+        <div id="myDiscord">
+            <a target="_blank" href="https://discordapp.com/users/622442422957244447" style="text-align: center;">
+                <img alt="Discord" src="https://www.svgrepo.com/show/343548/discord-communication-interaction-message-network.svg" width="100" height="100">
+                <pre>My Discord</pre>
+            </a>
+        </div>
+        <div id="myEmail">
+            <a target="_blank" href="mailto:quadrotez@proton.me" style="text-align: center;">
+                <img alt="Email" src="https://www.svgrepo.com/show/533193/mail.svg" width="100" height="100">
+                <pre>My E-Mail</pre>
+            </a>
+        </div>
+    </div>
+    
+    <hr>
+
+    <h2 class="sub_header">About me</h2>
+
+    <p class="main_paragraph">Hello, my name is <strong>Gregory Bychkov</strong>. I am <span style="color: yellow;">Junior</span> frontend and backend developer</p>
+    <p class="main_paragraph">I`m based in Moscow, Russia.</p>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <p class="main_paragraph">I've been in the IT world for about a year now and during this time I've managed to learn 2 programming languages: 
+        <img src="https://www.svgrepo.com/show/353925/javascript.svg" alt="Java" width="20" height="20">Java Script and <img src="https://www.svgrepo.com/show/452091/python.svg" alt="Python" width="20" height="20">Python</p>
+
+
+    <p class="main_paragraph">In Python, I had <strong>commercial experience</strong> when developing telegram bots on freelancing on Kwork</p>
+
+    <p class="main_paragraph">Now there is a need to learn frontend development</p>
+
+    <hr>
+
+    <h2 class="sub_header">My skills</h2>
+
+    <ul class="main_paragraph" style="background-color: #242423;">
+        <li class="list">Fluent in Python: selenium, pyrogram, aiogram, pygame, requests, etc</li>
+        <li class="list">JS Basic</li>
+        <li class="list">Git, Github</li>
+        <li class="list">I'm a good communicator</li>
+        <li class="list">Good advertising</li>
+        <li class="list">Responsible</li>
+    </ul>
+    <hr>
+    <h2 class="sub_header">My projects</h2>
+
+    <table border="1" class="table">
+        <tr>
+            <th class="main_paragraph">Projects</th>
+            <th class="main_paragraph">Description</th>
+            <th class="main_paragraph">Watch</th>
+        </tr>
+        <tr>
+            <td class="sub_paragraph">Sharkogram</td>
+            <td class="sub_paragraph">A custom telegram client written in python using pyrogram. The project is an abandoned project. The philosophy of the project was to be able to encrypt sent messages using cryptography</td>
+            <td class="sub_paragraph"><a href="https://github.com/Quadrotez/SharkoGram/" target="_blank"><img id="SharkogramLink" alt="Sharkogram" src="https://steamuserimages-a.akamaihd.net/ugc/2548556315457812178/AB04A0D07D20D292B9F2B63E3DCCC1682542EC55/?imw=512&amp;imh=287&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" width="100"></a></td>
+        </tr>
+        <tr>
+            <td class="sub_paragraph">ParsGPT</td>
+            <td class="sub_paragraph">A project conceived as an attempt to recreate the idea of the “dead internet” into reality. The script leaves comments under posts in telegram using neural networks. The project is also abandoned, but usable</td>
+             <td class="sub_paragraph"><a href="https://github.com/Quadrotez/gptparser/" target="_blank"><img id="ParsGPTLink" alt="ParsGPT" src="https://steamuserimages-a.akamaihd.net/ugc/2548556315457812178/AB04A0D07D20D292B9F2B63E3DCCC1682542EC55/?imw=512&amp;imh=287&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" width="100"></a></td>
+        </tr>
+    </table>
+    <hr>
+    <h2 class="sub_header">Work experience</h2>
+    <p class="main_paragraph">Previously worked only in freelancing on kwork: https://kwork.ru/user/tetracicline</p>
+    <hr>
+
+    <h2 class="sub_header">My education</h2>
+    <p class="main_paragraph">I haven’t taken any courses before. All my knowledge comes from reading documentation and watching videos on YouTube</p>
+    <hr>
+
+    <h2 class="sub_header">Languages</h2>
+
+    <hr>
+    <pre class="main_paragraph">English: B2 
+        Russian: <strong>Native language</strong></pre>
+    <hr>
+
+    <div style="background-color: black; height: 50px; display: flex; justify-content: bottom;">
+        <p style="color:aliceblue;">© 2022 by Gregory Bychkov</p>
+    </div>
+
+    
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+.main_header {
+    color: #d6d4cb;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.sub_header {
+    color: #d6d4cb;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+#myDiscord, #myTelegram, #myKwork, #myGitHub, #myEmail {
+    transition: transform 0.3s ease;
+    color: #d6d4cb;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main_paragraph {
+    color: #d6d4cb;
+    text-align: center;
+    font-family: "Headland One", serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 15px;
+}
+
+.sub_paragraph {
+    color: #d6d4cb;
+    text-align: center;
+    font-family: "Headland One", serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 13px;
+}
+
+#map {
+    height: 500px;
+    width: 30%;
+    margin: 20px 0;
+    margin-left: 35%;
+}
+
+.list {
+    margin-bottom: 10%; 
+    font-size: 20px;
+
+
+}
+
+.list:hover {
+filter:brightness(75%);
+cursor:pointer;
+transition: transform 0.3s ease;
+transform: scale3d(1.5, 1.5, 1.5);
+
+}
+
+.list:not(:hover) {
+    transform: scale3d(1, 1, 1);
+    transition: transform 1s ease;
+}
+
+.table {
+    justify-content: center;
+    margin: auto;
+    border-collapse: collapse;
+    width: 700px;
+    height: 200px;
+}
